@@ -11,8 +11,12 @@ import java.io.*;
 public class Server{
     private static ServerSocket serverSocket;
     private static Socket clientSocket = null;
+    
+    public void CLIENTConnection(Socket client){
+        this.clientSocket = client;
+    }
 
-    public static main void(String[] args) throws IOException{
+    public static void main(String[] args) throws IOException{
         try{
             serverSocket = new ServerSocket(4444);
             System.out.println("Server Started.");

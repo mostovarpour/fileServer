@@ -7,6 +7,7 @@
 
 import java.net.*;
 import java.io.*;
+import java.util.logging.*;
 
 public class Client implements Runnable{
     private Socket clientSocket;

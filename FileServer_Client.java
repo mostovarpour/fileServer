@@ -15,7 +15,7 @@ public class FileServer_Client {
         
         //System.out.println("");
         //System.out.println("");
-//        System.out.println("");
+        //System.out.println("");
         System.out.println("Commands are: \n1). OPEN <servername> <port>\n"
                 + "2). GET <source path> <destination path>\n3). CLOSE\n4). QUIT");
         

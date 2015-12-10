@@ -1,3 +1,3 @@
 all:
-	javac Server/FileServer_Server.java
-	javac Client/FileServer_Client.java
+	javac server/FileServer_Server.java
+	javac client/FileServer_Client.java
